@@ -12,7 +12,7 @@ const Admin = () => {
   } = useForm();
   const onSubmit = (data) => {
     axios
-      .post('https://serene-escarpment-13316.herokuapp.com/addpizza', data)
+      .post('https://calm-basin-01547.herokuapp.com/pizzaAdd', data)
       .then((res) => {
         console.log(res);
         if (res.data.insertedId) {
