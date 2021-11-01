@@ -1,0 +1,61 @@
+.workBackground {
+  width: 100%;
+  padding: 100px 0;
+  background: url('/img/bgimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.slick-dots {
+  bottom: -60px !important;
+}
+
+.slick-dots li button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #1d2361 !important;
+}
+
+.slick-dots li button::before {
+  content: '' !important;
+}
+
+.slick-dots li.slick-active button:before {
+  content: '' !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #fbd062;
+}
+
+.img img {
+  width: 100%;
+  height: 300px;
+}
+#first {
+  color: springgreen;
+  font-weight: 800;
+}
+#last {
+  color: tomato;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* mobile version*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .img img {
+    height: 200px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .img img {
+    height: 200px;
+  }
+}

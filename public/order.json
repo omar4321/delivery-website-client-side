@@ -1,0 +1,53 @@
+[
+    {
+    "id":1,
+    "name":"Pizza Margeritta",
+    "img": "https://i.ibb.co/RPh5NVG/pizza1.png",
+    "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+    "price": "40$"
+    },
+    
+    {
+        "id":2,
+        "name":"Pizza Margeritta",
+        "img": "https://i.ibb.co/rtV4tVB/pizza2.png",
+        "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+        "price": "50$"
+    },
+     
+    {
+        "id":3,
+        "name":"Pizza Margeritta",
+        "img": "https://i.ibb.co/dfyXyN9/pizza3.png",
+        "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+        "price": "40$"
+    },
+     
+    {
+        "id":4,
+        "name":"Pizza Margeritta",
+        "img": "https://i.ibb.co/vQ24b7R/pizza4.png",
+        "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+        "price": "30$"
+    },
+
+     
+    {
+        "id":5,
+        "name":"Pizza Margeritta",
+        "img": "https://i.ibb.co/JBJHgnm/pizza5.png",
+        "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+        "price": "55$"
+    },
+ 
+    {
+        "id":6,
+        "name":"Pizza Margeritta",
+        "img": "https://i.ibb.co/q1hJr57/pizza6.png",
+        "info": "White sauce pizza- Garlic Roasted Chicken Pizza",
+        "price": "70$"
+    }
+
+
+
+]
