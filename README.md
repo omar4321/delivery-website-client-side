@@ -1,69 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with Create React App
 
-## Available Scripts
+This project was bootstrapped with [Live](https://sefia-medi.web.app).
 
-In the project directory, you can run:
+# এই প্রজেক্ট এ কি কি ব্যবহার করা হয়েছ
 
-### `npm start`
+#### contexts Api ব্যবহার করা হয়েছে
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Hook ব্যবহার করে প্রজেক্ট করা হয়েছে
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### React Route ব্যবহার করা হয়েছে
 
-### `npm test`
+#### Loading Spinner ব্যবহার করা হয়েছে
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### pagination ব্যবহার করে প্রজেক্ট করা হয়েছে
 
-### `npm run build`
+## 🚀 About Me
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I'm a full stack developer...
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Lessons Learned
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+আমরা বিভিন্ন React এ আলাদা আলাদা ভাবে React Componet ব্যবহার করবো তাই আমাদের rsc ফোল্ডার এ Components নাম ফোল্ডার বানাতে হবে CSS Module ব্যবহার করা হবে। কারণ CSS Module CSS এর Scope তৈরী করে। ফলে সিস এর কোনো Problem হয় না
 
-### `npm run eject`
+![Logo](https://omar-faruk224.imgbb.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tech Stack
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Client:** React, react-bootstrap, Rowcss, react router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Server:** fackdata
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage/Examples
 
-## Learn More
+```javascript
+import Component from 'my-project';
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+function App() {
+  return <Component />;
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔗 Links
 
-### Code Splitting
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Hi, I'm oamr faruk AKib! 👋
 
-### Analyzing the Bundle Size
+## 🛠 Skills
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Javascript, HTML, CSS... react, bootstrap
 
-### Making a Progressive Web App
+## Optimizations
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# tourism-or-delivery-website-client-side-omar4321" 
+What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
