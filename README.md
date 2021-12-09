@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[![enter image description here](https://i.ibb.co/h2pFbyB/screencapture-musing-sinoussi-393d6d-netlify-app-2021-11-27-01-36-20.png)](https://musing-sinoussi-393d6d.netlify.app/)
+[![enter image description here](https://i.ibb.co/mT4cJZQ/screencapture-pizza-guy-47753-web-app-home-2021-12-10-01-10-28-1.png)](https://musing-sinoussi-393d6d.netlify.app/)
 
 
 
