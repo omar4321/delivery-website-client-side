@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[![enter image description here](https://i.ibb.co/mT4cJZQ/screencapture-pizza-guy-47753-web-app-home-2021-12-10-01-10-28-1.png)](https://musing-sinoussi-393d6d.netlify.app/)
+[![enter image description here](https://i.ibb.co/mT4cJZQ/screencapture-pizza-guy-47753-web-app-home-2021-12-10-01-10-28-1.png)](https://pizza-guy-47753.web.app/home)
 
 # use this project
 
