@@ -2,8 +2,6 @@
 
 [![enter image description here](https://i.ibb.co/mT4cJZQ/screencapture-pizza-guy-47753-web-app-home-2021-12-10-01-10-28-1.png)](https://musing-sinoussi-393d6d.netlify.app/)
 
-
-
 # use this project
 
 #### contexts Api 
