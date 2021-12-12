@@ -16,7 +16,7 @@ const SignUp = () => {
   const history = useHistory();
   const [loginData, setLoginData] = useState({});
   const { allcontext } = useAuth();
-  const { user, registerUser, error } = allcontext;
+  const { registerUser, error } = allcontext;
 
   const handleonBlur = (e) => {
     const field = e.target.name;

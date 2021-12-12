@@ -6,12 +6,14 @@ export const AuthContext = createContext();
 const AuthProvider = ({ children }) => {
   const allcontext = userFirebase();
   const { service } = useService();
-  const { addToCart, orderPizza } = useCart();
+  const { addToCart, orderPizza, remove, Checkout } = useCart();
   const data = {
     allcontext,
     service,
     addToCart,
     orderPizza,
+    remove,
+    Checkout,
   };
   return (
     <div>
