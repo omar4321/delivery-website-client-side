@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useAuth from '../../hooks/useAuth';
 import ServiceContent from '../ServiceContent/ServiceContent';
 
 const Services = () => {
-  const [service, setService] = useState([]);
-
-  useEffect(() => {
-    fetch('https://calm-basin-01547.herokuapp.com/pizzaAdd')
-      .then((res) => res.json())
-      .then((data) => setService(data));
-  }, []);
+  const { service } = useAuth();
 
   return (
-    <div className="container">
+    <div id="services" className="container">
       <h1 className="m-5 text-center">
         Choose your favorite pizza <i className="fas fa-pizza-slice"></i>
       </h1>

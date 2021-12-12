@@ -1,16 +1,11 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-// import { CartInfo } from '../../App';
+import useAuth from '../../hooks/useAuth';
 
 const ServiceContent = (props) => {
   const { img, name, description, price } = props.service || {};
-
-  // const { setcartId } = useContext(CartInfo);
-
-  // const handleDetails = (id) => {
-  //   setcartId((prev) => [...prev, id]);
-  // };
+  const { addToCart } = useAuth();
 
   return (
     <div className="col-lg-4 col-md-3 col-sm-6">
@@ -32,13 +27,13 @@ const ServiceContent = (props) => {
               <Link to="/cart">
                 {' '}
                 <Button
-                  // onClick={() => handleDetails(_id)}
-                  variant="danger "
+                  onClick={() => addToCart(props.service)}
+                  variant="primary "
                 >
-                  Add{' '}
+                  Buy Now{' '}
                   <span>
                     {' '}
-                    <i className="fas fa-plus"></i>
+                    <i class="fas fa-shopping-bag"></i>
                   </span>
                 </Button>{' '}
               </Link>

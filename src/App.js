@@ -10,11 +10,12 @@ import AuthProvider from './contexts/AuthProvider';
 import Notfound from './components/Notfound/Notfound';
 import Services from './components/Services/Services';
 import PrivateRoute from './components/Login/Firebase/Login/PrivateRoute/PrivateRoute';
-
 import Cart from './Cart/Cart';
 import Login from './components/Login/Firebase/Login/Login/Login';
 import Viewpizza from './components/Viewpizza/Viewpizza';
 import Admin from './Admin/Admin';
+import SignUp from './components/Login/signup/Signup';
+import Detalis from './components/Detalis page/Detalis';
 
 export const CartInfo = createContext();
 
@@ -46,11 +47,17 @@ function App() {
               <Route exact path="/services">
                 <Services></Services>
               </Route>
+              <Route exact path="/services/:">
+                <Detalis> </Detalis>
+              </Route>
               <Route exact path="/Restaurant">
                 <Viewpizza></Viewpizza>
               </Route>
               <Route path="/login">
                 <Login></Login>
+              </Route>
+              <Route path="/signup">
+                <SignUp />
               </Route>
               <Route path="/admin">
                 <Admin></Admin>
@@ -58,6 +65,7 @@ function App() {
               <PrivateRoute exact path="/cart">
                 <Cart></Cart>
               </PrivateRoute>
+
               <Route path="*">
                 <Notfound></Notfound>
               </Route>
